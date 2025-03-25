@@ -4,8 +4,8 @@ public class basic_ops{
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("ENter two nums");
-		int a = sc.nextInt();
-		int b = sc.nextInt();
+		int a = 5;
+		int b = 8;
 		System.out.println("Addition of two nums is");
 		System.out.println(a+b);
 		System.out.println("SUbtraction of two nums is");
