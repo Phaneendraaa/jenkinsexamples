@@ -3,6 +3,11 @@
   <groupId>com.example</groupId>
   <artifactId>hello-world</artifactId>
   <version>1.0-SNAPSHOT</version>
+
+  <properties>
+    <sonar.host.url>http://172.31.18.229</sonar.host.url> <!-- Replace with your SonarQube server URL -->
+  </properties>
+
   <build>
     <plugins>
       <plugin>
